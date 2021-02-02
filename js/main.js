@@ -11,10 +11,10 @@ $(document).ready(function(){
   });
   $('.card').mouseleave(function(){
     // console.log('work')
-  $(this).toggleClass('shadow')
+  $(this).removeClass('shadow')
   });
   $('.card').mouseenter(function(){
     // console.log('work')
-  $(this).toggleClass('shadow')
+  $(this).addClass('shadow')
   });
 });
